@@ -23,7 +23,6 @@ public class BillingScheme {
 			charFee = 0.8;
 		} else if (customer.getType() == customer.DISABILITY) {
 			charFee = 0.5;
-
 		}
 
 		return 2000 * seasonFee * charFee;
